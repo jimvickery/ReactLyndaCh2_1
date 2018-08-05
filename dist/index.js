@@ -4,11 +4,11 @@ const { render } = ReactDOM
 
 
 render(
- <h1 id='title'
+ <h2 id='title'
   className='header'
   style={{backgroundColor: 'orange', color: 'white', fontFamily: 'verdana'}}>
   Hello World
-    </h1>, 
+    </h2>, 
   document.getElementById('react-container')
 )
 
